@@ -1,0 +1,141 @@
+main {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #F5F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h3 {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+}
+
+p {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.intro-container h1 {
+    color: #293264;
+    font-weight: 700;
+}
+
+.intro-container p {
+    margin-bottom: 28px;
+    color: #293264;
+}
+
+.btn-primary {
+    background-color: #4D5B9E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    min-width: 192px;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #4d5b9ee2;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+}
+
+.questions-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.questions-container h3 {
+    color: #293264;
+}
+
+.question {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 16px;
+    border-bottom: 0.8px solid #DBDEF0;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-answer {
+    border: 0.8px solid #4D5B9E;
+    color: #293264;
+    background-color: #F5F7FB;
+    padding: 6px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: start;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.selected-answer {
+    border: none;
+    background-color: #D6DBF5;
+}
+
+.correct-answer {
+    border: none;
+    background-color: #94D7A2;
+}
+
+.incorrect-answer {
+    border: none;
+    background-color: #F8BCBC;
+}
+
+.dimmed-answer {
+    opacity: 0.5;
+}
+
+.results-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.score-text {
+    color: #293264;
+    font-weight: 700;
+    font-size: 1rem;
+}
